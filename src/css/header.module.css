@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  padding-bottom: 3rem;
+}
+.heading {
+  font-size: 2rem;
+  padding-left: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: rgb(24, 24, 24);
+}
+.fav {
+  justify-content: end;
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: rgb(18, 18, 18);
+  cursor: pointer;
+  margin-left: auto;
+  padding-right: 2rem;
+  transform: translateY(-50%);
+}
+.badge {
+  font-size: 15px;
+  margin-left: 5px;
+}
+.light {
+  justify-content: end;
+  font-size: 2rem;
+  margin-top: 2.4rem;
+  color: rgb(18, 18, 18);
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+.dark {
+  font-size: 2rem;
+  margin-top: 2.4rem;
+  color: rgb(18, 18, 18);
+  cursor: pointer;
+  transform: translateY(-50%);
+}

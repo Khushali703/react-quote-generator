@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  width: 96%;
+  margin: auto;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border-left: 5px solid #8a2be2; /* Aesthetic left border */
+}
+.text {
+  padding: 1rem;
+}
+.authName {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.close {
+  margin-left: auto;
+  padding-top: 0.7rem;
+  padding-right: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
